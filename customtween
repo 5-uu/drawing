@@ -1,18 +1,4 @@
---[[
-    Custom tween
-    Works with drawing objects
-]]
-
-local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/JayGitCuh/Jay/main/roblox/signalsbyvozoid.lua"))()
-
---[[
-    Easing styles math: https://www.desmos.com/calculator/m8myals511
-    Add more EasingStyles by doing this:
-    Convert the math (example: 1.001 · -2⁻¹⁰ˣ + 1 to something like
-    {name} = function(delta)
-        return 1.001 * (-2 ^ (-10 * delta)) + 1
-    end
-]]
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/5-uu/signal/main/vv"))()
 
 local Tween = {}
 
